@@ -47,12 +47,17 @@ is written in C#. The core logic for handling input sequences resides in the `Ol
 method, which processes strings according to the input rules.
 
 ### Example Inputs
-| Input Sequence          | Output        |
-|--------------------------|---------------|
-| `33#`                   | E             |
-| `227*#`                 | B             |
-| `4433555 555666#`       | HELLO         |
-| `8 88777444666*664#`    | ?????         |
+| Input Sequence          | Output        | Output Breakdown |
+|-------------------------|---------------|---------------|
+| `33#`                   | E             | Key = 3 , Index = 2         |
+| `227*#`                 | B             | 7* -> REMOVED; 22 -> Key = 2, Index = 2        |
+| `4433555 555666#`       | HELLO         | 44   -> H, 55   -> E, 555  -> L, 555  -> L, 666  -> O             |
+| `8 88777444666*664#`    | TURIOMG         | 8 -> T, 88-> U,  777-> R,  444-> I,  66-> O,  6*   -> REMOVED,  6    -> M,  4-> G;           |
+
+Reference : 
+        
+         2 → A, B, C | 3 → D, E, F | 4 → G, H, I | 5 → J, K, L | 6 → M, N, O |  7 → P, Q, R, s |  8 → T, U, V
+
 
 
 ## 🖥️ How to Run
