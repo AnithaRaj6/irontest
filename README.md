@@ -65,7 +65,7 @@ Reference :
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/isanka88/OldPhoneKeypadEmulator.git
+   git clone https://github.com/isanka89/OldPhoneKeypadEmulator.git
    cd OldPhoneKeypadEmulator
  
 
