@@ -80,7 +80,8 @@ namespace Coding.Challange.IsankaThalagala.Test
                         88   -> U
                         777  -> R
                         444  -> I
-                        666  -> O 
+                        66   -> O 
+                        6*   -> REMOVE
                         6    -> M
                         4    -> G
                         #    -> REMOVE             
