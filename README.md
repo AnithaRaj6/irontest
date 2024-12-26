@@ -23,7 +23,7 @@ coding challenge.
 
 - **Special Characters**:
   - `#` sends the input and displays the output.
-  - `*` backspace, Remove charactor before *.
+  - `*` backspace, Remove character before *.
 
 - **Clear User Interface**: Easy-to-use keypad interface with visual feedback.
 
@@ -32,7 +32,7 @@ coding challenge.
 *Note: One-second wait function for space only works when the mouse clicks on the mobile buttons. Press the space bar if you type using the keyboard.*
 
 
- **Output generate when :**
+ **Output generated when :**
  - Click # button.
  - Click  Call Button (Green).
  - Click  Menu Button (Green).
@@ -97,11 +97,11 @@ The application processes input based on the following rules:
     8 → T, U, V
     9 → W, X, Y, Z
 
-**Backspage Function**
+**Backspace Function**
   
-  *Backspace > Remove charactor before `*` and it self.*
+  *Backspace > Remove character before `*` and itself.*
         
-Backspace possibilites samples:
+Backspace possibilities samples:
 - **            -> Empty
 - **454         -> 454
 - 4454*         -> 445 ( Remove `4*` )
@@ -204,7 +204,7 @@ Pause for a second when entering consecutive letters from the same button.
 
 
 **Send Input:** OK Button, Manu Button, # finalizes and displays the text. 
-   *Note: When user wait more than one second app will automatically dispay output for current.*
+   *Note: When the user waits for more than one-second app will automatically display output for current.*
 
 
 ## 🖌️ User Interface
